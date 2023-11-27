@@ -13,7 +13,7 @@ public class MethodOverrding {
 		System.setProperty("webdriver.edge.driver",
 				"C:\\Users\\DELL\\eclipse-workspace\\DemoProject\\Browsers\\Driver\\msedgedriver.exe");
 		WebDriver driver = new EdgeDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.instagram.com/");
 		driver.manage().window().maximize();
 
 	}
